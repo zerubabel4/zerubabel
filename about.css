@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+  }
+  .hero{
+    height: 100vh;
+    width: 100%;
+    background: #edf2ec;
+    font-family: sans-serif;
+    position: relative;
+  
+  }
+  nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+  }
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 20px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover{
+    color: white;
+  }
+  .info{
+    margin-left: 5%;
+    margin-top: 15%;
+  }
+.info h1{
+font-size: 40px;
+color: white;
+margin-bottom: 20px;
+}
+p{
+    font-size: 20px;
+    color: white;
+}
+.img-box{
+    float:right;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
